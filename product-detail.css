@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+.strip-1 {
+  width: 100%;
+  height: 2.5rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.strip-1 p {
+  color: aliceblue;
+}
+.strip-2 {
+  width: 100%;
+  height: 3rem;
+  /* background-color: yellow; */
+  display: flex;
+}
+.strip-2_logo {
+  width: 22%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+.strip-2_logo img {
+  width: 60%;
+  height: 100%;
+}
+.strip-2_search {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 35rem;
+}
+.strip-2_search > div {
+  width: 30%;
+  height: 70%;
+  background-color: #f6f6f6;
+  display: flex;
+  border-radius: 3rem;
+}
+.strip-2_search > div input {
+  width: 80%;
+  height: 100%;
+  background-color: inherit;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  border-radius: inherit;
+}
+.strip-2_search > div img {
+  width: 20%;
+  height: 100%;
+}
+.strip-2_icon {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.strip-2_icon img {
+  width: 20%;
+  height: 60%;
+}
+.strip-3 {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+}
+nav {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.latest-products {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.latest-products-item {
+  width: 70%;
+  height: auto;
+}
+.latest-products-title {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+}
+.latest-products-cards {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.latest-products-cards .card {
+  width: 23%;
+  height: 22rem;
+  text-align: center;
+}
+.latest-products-cards .card img {
+  width: 180%;
+  height: 100%;
+  margin-left: 100%;
+  
+}
+
+.latest-products-cards .card p {
+  color: #222222;
+}
+.latest-products-cards .card p:nth-of-type(2) {
+  color: red;
+}
+.intro-dec {
+  width: 50%;
+  height: 100%;
+}
+.intro-dec h1 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.intro-img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.intro-img img {
+  width: 50%;
+  height: 80%;
+}
+element.style {
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: "Nunito", Helvetica, sans-serif;
+    background-color: #fff;
+}
+body {
+    line-height: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    color: #222222;
+    letter-spacing: 0.02em;
+}
+body {
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-style: normal;
+    color: #222 !important;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    oveflow-x: hidden !important;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --bg-table-stripe: #f6f6f5;
+    --b-table: #e3e3e2;
+    --caption: #242423;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+::selection {
+    background: #126B45!important;
+}
+::selection {
+    color: #fff;
+}
+
